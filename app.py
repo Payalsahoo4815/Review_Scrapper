@@ -6,6 +6,7 @@ from urllib.request import urlopen as uReq
 import logging
 
 logging.basicConfig(filename="scrapper.log", level=logging.INFO)
+import pymongo
 
 app = Flask(__name__)
 CORS(app)  # Enabling CORS for API requests
@@ -74,7 +75,11 @@ def index():
                 reviews.append(mydict)
 
             logging.info(f"Scraped {len(reviews)} reviews for {searchString}")
-
+            client = pymongo.MongoClient("mongodb+srv://payalsahoo931:payal123@cluster0.bh0o2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+            db = client['Review_Scrap']
+            review_col = db['Review_Scrap_data']
+            review_col.insert_many(reviews)
+            
             return render_template('result.html', reviews=reviews)
 
         except Exception as e:

@@ -5450,3 +5450,77 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:root:list index out of range
 INFO:root:cannot access local variable 'custComment' where it is not associated with a value
 INFO:werkzeug:127.0.0.1 - - [04/Feb/2025 12:30:07] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:00:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:00:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:00:52] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:00:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Scraped 11 reviews for realme10pro
+ERROR:root:Error: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:01:05] "POST /review HTTP/1.1" 200 -
+INFO:root:Scraped 11 reviews for iphone11
+ERROR:root:Error: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:01:26] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\KIIT0001\\Documents\\Data_Science\\Review_Scrapper\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:werkzeug: * Detected change in 'C:\\Users\\KIIT0001\\Documents\\Data_Science\\Review_Scrapper\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:werkzeug: * Detected change in 'C:\\Users\\KIIT0001\\Documents\\Data_Science\\Review_Scrapper\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:werkzeug: * Detected change in 'C:\\Users\\KIIT0001\\Documents\\Data_Science\\Review_Scrapper\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:root:Scraped 11 reviews for iphone11
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:05:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:05:16] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:05:16] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:Scraped 11 reviews for iphone12pro
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:05:31] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:05:31] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:05:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\KIIT0001\\Documents\\Data_Science\\Review_Scrapper\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:werkzeug: * Detected change in 'c:\\Users\\KIIT0001\\Documents\\Data_Science\\Review_Scrapper\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:werkzeug: * Detected change in 'c:\\Users\\KIIT0001\\Documents\\Data_Science\\Review_Scrapper\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:werkzeug: * Detected change in 'c:\\Users\\KIIT0001\\Documents\\Data_Science\\Review_Scrapper\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 759-885-832
+INFO:root:Scraped 11 reviews for iphone12pro
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:11:08] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:11:08] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:11:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:Scraped 11 reviews for realme10pro
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:15:00] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:15:00] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 11:15:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
